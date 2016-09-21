@@ -1,0 +1,3 @@
+Disallow: /index.html
+
+Sitemap: http://www.melwoodard.com/sitemap.xml
