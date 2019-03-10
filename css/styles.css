@@ -1,0 +1,42 @@
+.role {
+  background: rgba(70, 154, 163, .1);
+  padding: .1rem 3rem;
+}
+
+.role-icon {
+  margin-right: 1.5rem;
+}
+
+.mockup {
+  background: white;
+  border: 1px solid #d4e8e5;
+  display: flow-root;
+  margin-bottom: 2rem;
+}
+
+.mockup img {
+  width: 100%;
+}
+
+.caption {
+  background: rgba(70, 154, 163, .1);
+  padding: 1rem;
+  color: #356f69;
+  font-family: "Source Serif Pro", "Georgia", serif;
+  font-size: 1.5rem;
+  margin-top: -2rem;
+}
+
+blockquote {
+  margin-left: 3rem;
+  padding-left: 2rem;
+  border-left: 2px solid #90ccc7;
+  font-family: "Source Serif Pro", "Georgia", serif;
+  font-weight: 400; 
+  color: #356f69;
+  font-size: 2rem;
+}
+
+.footer {
+  margin: 4rem auto;
+}

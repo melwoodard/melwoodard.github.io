@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Vets.gov Claim Status</title>
+  <meta name="description" content="Simplifying the disability claims tracking process for Veterans">
+  <meta name="keywords" content="Mel Woodard, web design, UX design, product design, UI design, design, senior, lead">
+  <meta name="author" content="Mel Woodard">
+  <meta property="og:title" content="Vets.gov Claim Status">
+  <meta property="twitter:title" content="Vets.gov Claim Status">
+  <meta property="og:description" content="Simplifying the disability claims tracking process for Veterans">
+  <meta property="og:image" content="/images/og.png">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,500|Source+Serif+Pro:400,700" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="ten columns" style="margin-top: 10%">
+        <a href="index.html"><img src="images/logo.svg"></a>
+        <h1>Vets.gov Claim Status</h1>
+        <p>Simplifying the disability claims tracking process for Veterans.</p>
+        <div class="row">
+          <div class="eight columns">
+            <div class="role">
+              <h6>My role</h6>
+              <p>
+              <img class="role-icon" src="images/134-binoculars.svg">Discovery & stakeholder interviews</br>
+              <img class="role-icon" src="images/013-paint-format.svg">Ideation & prototyping</br>
+              <img class="role-icon" src="images/039-file-text2.svg">Content strategy</p>
+            </div>
+          </div>
+        </div>
+        <h5>About Vets.gov</h5>
+        <p>Vets.gov was a beta site developed by the VA to bring all Veteran-facing tools and brands under one roof. In 2018 Vets.gov merged with VA.gov to become the new home for Veterans at the VA.</p>
+        <h5>Veterans' disability benefits</h5>
+        <p>The VA offers disability compensation benefits to Veterans who got sick or injured while serving in the military. To receive those benefits, Veterans must apply and submit medical evidence of their disability in order for the VA to determine how much compensation they're eligible for.</p>
+        <p>Once a Veteran applies for disability compensation, it can take anywhere from 3-10 months for them to receive a decision. While they were able track the status of their claim online, the information available was often vague and didn't tell them much about when they could expect to get a decision. When the online status is unclear, Veterans try other means by calling the VA.</p>
+        <p>At the time this work started (Fall 2016), <b>42% of all calls to the VA National Call Center were related to claim status.</b></p>
+        <h5>Discovery</h5>
+        <p>The discovery process included reviewing prior in-house research and interviewing stakeholders and subject matter experts such as Veteran Service Officers (VSOs), who help Veterans submit disability claims. We also evaluated the current online interface for tracking claim status through a heuristic analysis and usability testing to understand Veterans' pain points with the experience.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <h6>Pain points</h6>
+        <div class="row">
+          <div class="eight columns">
+            <div class="mockup">
+                <img src="images/vets-claim-status/ebenefits-claim-status.png" alt="Before: eBenefits claim status">
+            </div>
+                <p class="caption">eBenefits, the VA's existing claim status tool</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ten columns">
+        <p>The recurring theme found through the discovery process was lack of transparency — many confusing things could happen, and often without explanation:</p>
+        <ul>
+          <li>The estimated completion date changes or disappears altogether</li>
+          <li>The status of the claim moves backwards a step</li>
+          <li>The status isn't descriptive or doesn't change for long periods of time</li>
+          <li>When a decision is finally received, the path forward in an unfavorable outcome is unclear</li>
+        </ul>
+        <blockquote>“I found my status but, somehow I keep having to send the same information over and over again. I've been getting the run around for over 2 years. When does it end?”</blockquote>
+        <h6>Goals</h6>
+        <p>Through the concerns we heard from Veterans, my team set out with three core goals in mind:</p>
+        <ul>
+          <li><b>Use layman's terms, not the VA's,</b> to clearly explain the status of a claim</li>
+          <li><b>Expose more detail</b> about what the VA is doing at any given step in the process to reinforce the sense of progress, even when incremental</li>
+          <li><b>Establish a clear hierarchy</b> that prioritizes actions the Veteran needs to take, or can take to expedite the process</li>
+        </ul>
+        <h5>Ideation</h5>
+        <p> Early explorations focused on hierarchy experiments, different ways to visualize the timeline and progress, and the balance of information on the page.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns">
+        <div class="mockup">
+          <img src="images/vets-claim-status/vets-claim-status-wireframe-1.png" alt="">
+        </div>
+          <p class="caption"><b>Experiment 1:</b></br>Focusing on current phase and displaying progress based on journey to completion date to reinforce a sense of forward movement.</p>
+      </div>
+      <div class="four columns">
+        <div class="mockup">
+          <img src="images/vets-claim-status/vets-claim-status-wireframe-2.png" alt="">
+        </div>
+          <p class="caption"><b>Experiment 2:</b></br>Combining the two steps where backward movement is most likely to occur.</p>
+      </div>
+      <div class="four columns">
+        <div class="mockup">
+          <img src="images/vets-claim-status/vets-claim-status-wireframe-3.png" alt="">
+        </div>
+          <p class="caption"><b>Experiment 3:</b></br>Using visual cues in the timeline graphic to generally indicate expected time length for each phase.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="twelve columns">
+        <h5>Refined concept</h5>
+        <div class="mockup">
+            <img src="images/vets-claim-status/vets-claim-status-mockup.png" alt="After: Vets.gov claim status">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="ten columns">
+        <h6>Minimized backward movement</h6>
+        <p>Through input from claims processors, we learned about the steps in the process where there was a high likelihood of moving backwards in the process. We combined these into a single step to minimize appearance of backward movement. This also reduced the overall number of steps in the process with the goal of simplifying the experience.</p>
+        <h6>Prioritized calls to action</h6>
+        <p>Focusing the hierarchy of the interface to prioritize any actions the Veteran needs to take, like uploading a medical record as evidence for their claim.</p>
+        <h6>Microtransactions</h6>
+        <p>Surfacing smaller, detailed status updates more visibly to emphasize the sense of progress and recency. In the current tool these were minimized and most focus was given to the step in the process and estimated completion date.</p>
+        <h6>Timestamps</h6>
+        <p>Displaying the last time data was received from the backend data source, to provide reassurance that the information shown is up to date, even if nothing appears to have changed.</p>
+        <h6>Date stability</h6>
+        <p>Rather than showing a range for the estimated completion date, show only the later date in that range, and provide detail to Veterans around why that date may change.</p>
+        <h5>User feedback</h5>
+        <p>We put our concepts in front of Veterans who had been through the disability claims process before. They expressed a lot of positive feedback and felt the new experience simultaneously gave a lot more useful information, while cutting down on the extraneous and unhelpful details.</p>
+        <blockquote>“This is where it's at. It's streamlined, there's no nonsense in there.”</blockquote>
+        <blockquote>“I feel like I have a lot more information on the status. The timeline, listing out the steps - it shows what's happening at each point in time.”</blockquote>
+        <blockquote>“Even though there are a lot of people that use computers now, making them simple like they do for us seniors...it needs to be spelled out and simple to work. It doesn't need to be a complicated process.”</blockquote>
+      </div>
+    </div>
+    <div class="row">
+      <div class="footer">
+        <a href="index.html">&#8592 Home</a>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
