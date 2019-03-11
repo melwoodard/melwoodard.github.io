@@ -1,6 +1,7 @@
 .role {
   background: rgba(70, 154, 163, .1);
   padding: .1rem 3rem;
+  margin-bottom: 2rem;
 }
 
 .role-icon {
@@ -11,20 +12,21 @@
   background: white;
   border: 1px solid #d4e8e5;
   display: flow-root;
-  margin-bottom: 2rem;
+  margin: 2rem 0 0;
 }
 
 .mockup img {
   width: 100%;
+  margin-bottom: -10px;
 }
 
 .caption {
   background: rgba(70, 154, 163, .1);
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   color: #356f69;
   font-family: "Source Serif Pro", "Georgia", serif;
   font-size: 1.5rem;
-  margin-top: -2rem;
+  margin-top: 0rem;
 }
 
 blockquote {
@@ -40,3 +42,20 @@ blockquote {
 .footer {
   margin: 4rem auto;
 }
+
+.process {
+  background: rgba(70, 154, 163, .1);
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  text-align: center;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: left;
+}
+
+.process p {
+    margin-bottom: 0;
+  }
